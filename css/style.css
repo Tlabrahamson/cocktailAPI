@@ -1,0 +1,111 @@
+#container{
+    font-family: 'Cutive Mono', monospace;
+    background:#5d6d7e;
+    height: 800px;
+    margin-top: -36px;
+    overflow: hidden;
+}
+
+h1{
+    padding: 20px;
+    margin-top: 28px;
+    text-align: center;
+    background:#212f3c;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 40pt;
+}
+
+#button{
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2c3e50;
+    color: #fff;
+    /* border: solid 1px #000; */
+    text-shadow: 1px 1px 1px #000;
+    box-shadow: 2px 2px 2px #000;
+    position: relative;
+    font-size: 14pt;
+}
+
+#button:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+#button:active{
+    opacity: .6;
+}
+
+#drinkRecipie{
+    list-style: none;
+    color:#e5e7e9; 
+    font-size: 14pt;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.shakeIt{
+    animation-name: shake;
+    animation-duration: 1000ms;
+}
+
+@keyframes shake{
+    0%{left: 30px;}
+    25%{left: -30px;}
+    50%{left: 30px;}
+    75%{left: -30px;}
+    100%{left: 0px;}
+}
+
+.fadeIn{
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+/* .fadeOut{
+    animation-name: faze;
+    animation-duration: 2.5s;
+}
+
+@keyframes faze{
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+} */
+
+#fullRecipie{
+    width: auto;
+    height: 307px;
+    font-size: 12pt;
+    margin-top: 40px;
+    left: 25%;
+    overflow: auto;
+}
+
+.drinkName{
+    margin-left: 10px;
+    margin-top: -2px;
+    padding-bottom: 20px;
+}
+
+.list{
+    margin-top: 50px;
+    padding-top: 15px;
+}
+
+.ingredient{
+    list-style: none;
+    margin-left: -340px;
+}
+
+.instructions{
+    margin-left: 10px;
+}
